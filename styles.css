@@ -165,5 +165,15 @@ ul{
 .icon-list a:hover{
     color:var(--dark-blue);
 }
+button{
+    cursor: pointer;
+}
+@media(max-width:700px)
+{
+    .sidebar{
+        width: 100%;
+        position: fixed;
+    }
+}
 
 
